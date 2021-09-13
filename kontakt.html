@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="../js/form.js" defer></script>
+</head>
+<div id="menu-outer-swe">
+    <div class="table">
+        <ul class="horizontal-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="priser.html">Priser</a></li>
+            <li><a href="kontakt.html">Boka nu</a></li>
+
+        </ul>
+    </div>
+</div>
+<div id="menu-outer-eng">
+    <div class="table">
+        <ul class="horizontal-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="priser.html">Prices</a></li>
+            <li><a href="kontakt.html">Bookings</a></li>
+
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/swapLang.js" defer></script>
+<input type="image" src="img/swefl.png" onclick="changeToSwe()" class="langBtn" id="swelang" />
+<input type="image" src="img/uk.png" onclick="changeToEng()" class="langBtn" id="uklang" />
+<video autoplay muted loop id="myVideo">
+    <source src="vid/boden.mp4" type="video/mp4">
+</video>
+<body onload="onLoadSetLang()">
+<p id="resultName"></p>
+<p id="resultTel"></p><br>
+<p id="resultBokning"></p>
+<div id="sweBody">
+    <h1 id="titel">Boka ditt äventyr</h1>
+    <p>Fyll i och skicka in följande formulär så hör vi av oss så snabbt vi kan!</p>
+    <p>Flytvästar finns att låna!</p>
+    <form class="kontaktform">
+        <label for="namn">Namn (för- och efternamn):</label><br>
+        <input type="text" id="namn"><br>
+        <label for="nr">Telefonnummer:</label><br>
+        <input type="tel" id="nr"><br><br>
+        <label for="aktivitet">Aktivitet:</label>
+        <select id="aktivitet" name="aktivitet">
+            <option value="Flotten + tampbåt">Flotten + trampbåt</option>
+            <option value="SUP">SUP (stand up paddle)</option>
+            <option value="Tampbåt">Endast Trampbåt</option>
+            <option value="Kajak">Kajak</option>
+        </select><br><br>
+        <label for="datum">Datum:</label><br>
+        <input type="date" id="datum"><br><br>
+        <label for="antal">Antal personer:</label><br>
+        <input type="number" id="antal"><br><br>
+        <input type="submit" value="Boka nu">
+    </form>
+</div>
+<div id="engBody">
+    <h1 class="titel">Book your adventure</h1>
+    <p>Fill in and send in the following form and we will get back to you as soon as we can! </p>
+    <p> Life jackets are available to borrow! </p>
+    <form class="kontaktform">
+        <label for="namn">Name (first- and lastname):</label><br>
+        <input type="text" id="namnEn"><br>
+        <label for="nr">Telephone Number:</label><br>
+        <input type="tel" id="nrEn"><br><br>
+        <label for="aktivitet">Activity:</label>
+        <select id="aktivitetEn" name="aktivitet">
+            <option value="Flotten + tampbåt">Partyraft + pedal boat</option>
+            <option value="SUP">SUP (stand up paddle)</option>
+            <option value="Tampbåt">Only pedal boat</option>
+            <option value="Kajak">Kayak</option>
+        </select><br><br>
+        <label for="datum">Date:</label><br>
+        <input type="date" id="datumEn"><br><br>
+        <label for="antal">Number of people:</label><br>
+        <input type="number" id="antalEn"><br><br>
+        <input type="submit" value="Book now!">
+    </form>
+</div>
+
+
+
+</body>
+
+<footer>
+    <div id="menu-outerFooter">
+        <div class="table">
+            <ul id="horizontal-listFooter">
+                <li><a href="https://www.facebook.com/Surfboden-1126374717500235"><img class="footerImg" src="img/fb.png"></a></li>
+                <li><a href="https://www.instagram.com/surfboden/"><img class="footerImg"  src="img/ig.png"></a></li>
+                <li><a href="tel:+46725343553"><img class="footerImg" src="img/tel.png"></a></li>
+                <li><a href="mailto:surfboden@gmail.com"><img class="footerImg" src="img/mail.png"></a></li>
+            </ul></div>
+        </div>
+    </div>
+</footer>
+</html>
