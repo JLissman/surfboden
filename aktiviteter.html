@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aktiviteter & Priser</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="../Script/swapLang.js" defer></script>
+    <script type="text/javascript" src="../Script/fetch.js" defer></script>
+
+
+</head>
+<nav>
+<div id="menu-outer-swe">
+    <div class="table">
+        <ul class="horizontal-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="aktiviteter.html">Aktiviteter</a></li>
+            <li><a href="kontakt.html">Boka nu</a></li>
+
+        </ul>
+    </div>
+</div>
+<div id="menu-outer-eng">
+    <div class="table">
+        <ul class="horizontal-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="aktiviteter.html">Activites</a></li>
+            <li><a href="kontakt.html">Book now</a></li>
+
+        </ul>
+    </div>
+</div>
+</nav>
+
+
+
+<input type="image" src="img/swefl.png" onclick="changeToSwe()" class="langBtn" id="swelang" />
+<input type="image" src="img/uk.png" onclick="changeToEng()" class="langBtn" id="uklang" />
+<video autoplay muted loop id="myVideo">
+    <source src="vid/boden.mp4" type="video/mp4">
+</video>
+<body onload="onLoadSetLang();fetchActivities()">
+<div id="sweBody">
+<ul id="sweList">
+
+
+
+</ul>
+    <form action="kontakt.html">
+        <input class="bokaBtn" type="submit" value="Boka nu!" />
+    </form>
+</div>
+
+<div id="engBody">
+    <ul id="engList">
+
+
+
+    </ul>
+    <form action="kontakt.html">
+        <input class="bokaBtn" type="submit" value="Book now!" />
+    </form>
+</div>
+</body>
+
+
+<footer>
+    <div id="menu-outerFooter">
+        <div class="table">
+            <ul id="horizontal-listFooter">
+                <li><a href="https://www.facebook.com/Surfboden-1126374717500235"><img class="footerImg" src="img/fb.png"></a></li>
+                <li><a href="https://www.instagram.com/surfboden/"><img class="footerImg"  src="img/ig.png"></a></li>
+                <li><a href="tel:+46725343553"><img class="footerImg" src="img/tel.png"></a></li>
+                <li><a href="mailto:surfboden@gmail.com"><img class="footerImg" src="img/mail.png"></a></li>
+            </ul></div>
+    </div>
+</footer>
+</html>

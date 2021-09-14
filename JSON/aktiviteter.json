@@ -1,0 +1,41 @@
+[{
+    "name": "Kajak",
+    "pris": "50kr/tim",
+    "description": "Stabila Enmans kajaker med plats för packning"
+  },
+  {
+    "name": "Earlybird-tur",
+    "pris": "2 timmar 30 minuter · 250 kr",
+    "description": "Earlybird är en guidad morgontur över sjön Gerdsken in i ån som leder till Lilla färgen (Ca 6.5km) . Turen kan bokas för slutna sällskap eller när Surfboden arrangerar öppna turer."
+  },
+  {
+    "name": "Trampbåt",
+    "pris": "1 person: 100r/h, 2-3 personer: 150kr/h, 4 personer 200kr/h",
+    "description": "Ta en tur i någon av våra härliga trampbåtar - finns flera olika storlekar beroende på antal personer"
+  },
+  {
+    "name": "Surfterassen (flotten)",
+    "pris": "1 timme och längre · 500 kr",
+    "description": "Hyr den 40kvm stora flotten med sällskap upp till 20pers. Hyrs fram till kl.22.00 (23.00 på helger)"
+  },
+  {
+    "name": "Privatlektion SUP",
+    "pris": "1 timme · 600 kr",
+    "description": "Privatlektioner är i första hand inriktad till dem som aldrig provat men även den som testat förr som vill få bättre paddlingateknik och övriga tips. Kursen är situation och individanpassad."
+  },
+  {
+    "name": "Sup",
+    "pris": "1 timme · 150kr st, 100kr ungdom 8-18år",
+    "description": "Ta en tur över sjön Gredsken på en SUP"
+  },
+  {
+    "name": "Sup - Heldag",
+    "pris": "8 timmar och längre · 500kr",
+    "description": "Ta med dig supen/arna på ditt egna äventyr. Supparna är nedpackade i väskor med fena, pump och paddel samt reparationskit."
+  },
+  {
+    "name": "Uthyrning-kanot",
+    "pris": "1 timme och längre · 200kr/tim",
+    "description": "1-2 personer. Maxvikt 155 kg."
+  }
+]

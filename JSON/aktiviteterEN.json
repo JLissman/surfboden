@@ -1,0 +1,41 @@
+[{
+    "name": "Kayak",
+    "pris": "SEK 50 / hour",
+    "description": "Stable One-man kayaks with space for packing"
+  },
+  {
+    "name": "Earlybird-tour",
+    "pris": "2 hours 30 minutes · SEK 250",
+    "description": "Earlybird är en guidad morgontur över sjön Gerdsken in i ån som leder till Lilla färgen (Ca 6.5km) . Turen kan bokas för slutna sällskap eller när Surfboden arrangerar öppna turer."
+  },
+  {
+    "name": "Pedal boat",
+    "pris": "1 person: SEK 100 / hour, 2-3 people: SEK 150 / hour, 4 people SEK 200 / hour",
+    "description": "Take a ride in one of our lovely pedal boats - there are several different sizes depending on the number of people in your group"
+  },
+  {
+    "name": "Party raft",
+    "pris": "1 hour and longer · SEK 500",
+    "description": "Rent the 40sqm large raft with company up to 20 people Rented until 22.00 (23.00 on weekends)"
+  },
+  {
+    "name": "Private lesson SUP",
+    "pris": "1 hour · 600 kr",
+    "description": "Private lessons are primarily aimed at those who have never tried but also those who have tested before who want better paddling techniques and other tips. The course is situational and individualized. "
+  },
+  {
+    "name": "SUP",
+    "pris": "1 hour · SEK 150 each, SEK 100 youth 8-18 years",
+    "description": "Take a trip across Lake Gredsken on a SUP"
+  },
+  {
+    "name": "Sup - All day",
+    "pris": "8 hours and longer · SEK 500",
+    "description": "Bring your SUP(s) on your own adventure. The SUPs are packed in bags with fins, pump and paddle as well as repair kits."
+  },
+  {
+    "name": "Rental canoe",
+    "pris": "1 hour and longer · SEK 200 / hour",
+    "description": "1-2 people. Maximum weight 155 kg. "
+  }
+]

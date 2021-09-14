@@ -1,0 +1,198 @@
+.grid-container {
+    display: grid;
+    grid-gap:200px 150px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.grid-item{
+    border:5px solid #000000;
+    float:none;
+
+}
+
+body{
+    max-width: 500px;
+    margin-left:30%;
+    color: white;
+    font-size: 20px;
+    text-shadow:
+            0.07em 0 dimgray,
+            0 0.07em dimgray,
+            -0.07em 0 dimgray,
+            0 -0.07em dimgray;
+}
+
+#menu-outer {
+    height: 110px;
+    width:570px;
+    border:solid 5px black;
+    background: url('../img/surfbodenLong.png') 100% 50% no-repeat;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul.horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 40px;
+}
+
+ul.horizontal-list li {
+    display: inline;
+    font-size:200%;
+    margin-left:20px;
+    text-shadow:
+            0.07em 0 dimgray,
+            0 0.07em dimgray,
+            -0.07em 0 dimgray,
+            0 -0.07em dimgray;
+}
+
+
+.destTitel{
+    font-size:150%;
+
+}
+
+
+.destDesc{
+    font-size:100%;
+}
+
+img.destImg{
+    width:100%;
+    height:100%;
+
+}
+
+#longImg{
+    max-width: 300%;
+    margin-left:-50%;
+    border: solid 10px black;
+
+}
+
+
+#resmalTitle{
+    font-size:300%;
+    display:inline;
+    white-space:nowrap;
+
+}
+
+.startImg{
+    display:inline;
+    width:100%;
+    height:100%;
+}
+
+.kontaktform{
+    -moz-column-width: 128px;
+    -webkit-column-width: 128px;
+    -column-width: 128px;
+    -webkit-column-gap: 0px;
+    column-gap: 0px;
+    display:inline;
+}
+
+
+
+form{
+    display:inline;
+    text-shadow:
+            0.07em 0 dimgray,
+            0 0.07em dimgray,
+            -0.07em 0 dimgray,
+            0 -0.07em dimgray;
+
+
+}
+form input.bokaBtn{
+    text-align:center;
+    margin:auto;
+    display:flex;
+    size:200px;
+    background:cornflowerblue;
+    margin-bottom:50px;
+
+}
+footer div img{
+    display:inline-grid;
+
+}
+
+
+.footerImg{
+    width:50px;
+    height:50px;
+    display:inline-grid;
+
+    border-top: 70px;
+}
+
+
+#menu-outerFooter {
+    height: 84px;
+    border-top: 70px;
+}
+
+
+ul#horizontal-listFooter {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-listFooter li {
+    display: inline;
+    font-size:200%;
+    margin-left:30px;
+
+}
+
+
+a, a:visited{
+    color: antiquewhite;
+}
+
+.langBtn#uklang{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width:50px;
+    height:50px;
+}
+
+.langBtn#swelang{
+    position:absolute;
+    top:55px;
+    right:0px;
+    width:50px;
+    height:50px;
+
+}
+
+.formvalid {
+    display: inline;
+    font-size:70%;
+    margin-left:20px;
+    text-shadow:
+            0.07em 0 dimgray,
+            0 0.07em dimgray,
+            -0.07em 0 dimgray,
+            0 -0.07em dimgray;
+    color:red;
+
+}
