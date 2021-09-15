@@ -7,7 +7,6 @@
 .grid-item{
     border:5px solid #000000;
     float:none;
-
 }
 
 body{
@@ -22,12 +21,15 @@ body{
             0 -0.07em dimgray;
 }
 
-#menu-outer {
+#menu-outer-swe, #menu-outer-eng {
     height: 110px;
     width:570px;
     border:solid 5px black;
     background: url('../img/surfbodenLong.png') 100% 50% no-repeat;
 }
+
+
+
 
 #myVideo {
     position: fixed;
@@ -61,46 +63,17 @@ ul.horizontal-list li {
 }
 
 
-.destTitel{
-    font-size:150%;
-
-}
-
-
-.destDesc{
-    font-size:100%;
-}
-
 img.destImg{
     width:100%;
     height:100%;
 
 }
 
-#longImg{
-    max-width: 300%;
-    margin-left:-50%;
-    border: solid 10px black;
-
-}
 
 
-#resmalTitle{
-    font-size:300%;
-    display:inline;
-    white-space:nowrap;
-
-}
-
-.startImg{
-    display:inline;
-    width:100%;
-    height:100%;
-}
 
 .kontaktform{
-    -moz-column-width: 128px;
-    -webkit-column-width: 128px;
+
     -column-width: 128px;
     -webkit-column-gap: 0px;
     column-gap: 0px;
@@ -123,14 +96,12 @@ form input.bokaBtn{
     text-align:center;
     margin:auto;
     display:flex;
-    size:200px;
     background:cornflowerblue;
     margin-bottom:50px;
 
 }
 footer div img{
     display:inline-grid;
-
 }
 
 
@@ -168,16 +139,16 @@ a, a:visited{
 }
 
 .langBtn#uklang{
-    position: absolute;
-    top: 0px;
+    position: fixed;
+    top: 70px;
     right: 0px;
     width:50px;
     height:50px;
 }
 
 .langBtn#swelang{
-    position:absolute;
-    top:55px;
+    position:fixed;
+    top:0px;
     right:0px;
     width:50px;
     height:50px;
@@ -196,3 +167,74 @@ a, a:visited{
     color:red;
 
 }
+
+
+
+
+
+/* responsive stuff*/
+
+@media only screen and (max-width: 600px) {
+    /*body {
+        margin-left: 5%;
+    }
+*/
+    #sweBody, #engBody {
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        color: #ddff00;
+        font-size: 170%;
+        text-shadow: 0.07em 0 #730606,
+        0 0.07em #b62323,
+        -0.07em 0 #590707,
+        0 -0.07em #cc2a2a;
+        position: absolute;
+        top: 15%;
+        z-index: 1
+    }
+
+    .langBtn#uklang {
+        position: absolute;
+        top: 65px;
+        right: 85%;
+        width: 50px;
+        height: 50px;
+        z-index: 3;
+    }
+
+    .langBtn#swelang {
+        position: absolute;
+        top: 5px;
+        right: 85%;
+        width: 50px;
+        height: 50px;
+        z-index: 3;
+    }
+
+    #menu-outer-swe, #menu-outer-eng {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+        margin-left: 0;
+
+    }
+
+    ul.horizontal-list li {
+        width:auto;
+        height:auto;
+        display: inline;
+        font-size:165%;
+        margin-left:5%;
+        text-shadow:
+                0.07em 0 dimgray,
+                0 0.07em dimgray,
+                -0.07em 0 dimgray,
+                0 -0.07em dimgray;
+    }
+
+
+}
+
+

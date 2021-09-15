@@ -4,38 +4,43 @@
   <meta charset="UTF-8">
   <title>Surfboden.se</title>
   <link rel="stylesheet" href="css/style.css">
-</head>
-<nav>
-<div id="menu-outer-swe">
-  <div class="table">
-    <ul class="horizontal-list">
-      <li><a href="index.html">Start</a></li>
-      <li><a href="aktiviteter.html">Aktiviteter</a></li>
-      <li><a href="kontakt.html">Boka nu</a></li>
+  <script type="text/javascript" src="../Script/swapLang.js" defer></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
 
-    </ul>
-  </div>
-</div>
-<div id="menu-outer-eng">
-  <div class="table">
-    <ul class="horizontal-list">
-      <li><a href="index.html">Start</a></li>
-      <li><a href="aktiviteter.html">Activities</a></li>
-      <li><a href="kontakt.html">Book now</a></li>
 
-    </ul>
-  </div>
-</div>
-</nav>
-<script type="text/javascript" src="../Script/swapLang.js" defer></script>
+
+
+<body onload="onLoadSetLang()">
 <input type="image" src="img/swefl.png" onclick="changeToSwe()" class="langBtn" id="swelang" />
 <input type="image" src="img/uk.png" onclick="changeToEng()" class="langBtn" id="uklang" />
 
-<video autoplay muted loop id="myVideo">
+
+  <video autoplay muted loop id="myVideo">
   <source src="vid/boden.mp4" type="video/mp4">
 </video>
 
-<body onload="onLoadSetLang()">
+<nav>
+  <div id="menu-outer-swe">
+    <div class="table">
+      <ul class="horizontal-list">
+        <li><a href="index.html">Start</a></li>
+        <li><a href="aktiviteter.html">Aktiviteter</a></li>
+        <li><a href="kontakt.html">Boka nu</a></li>
+
+      </ul>
+    </div>
+  </div>
+  <div id="menu-outer-eng">
+    <div class="table">
+      <ul class="horizontal-list">
+        <li><a href="index.html">Start</a></li>
+        <li><a href="aktiviteter.html">Activities</a></li>
+        <li><a href="kontakt.html">Book now</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
 <div id="sweBody">
 <h1> Surfboden</h1>
 <article>Uthyrning av SUPs, kajak, trampbåt och en 40kvm stor flotte.<br><br>

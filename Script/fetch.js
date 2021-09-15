@@ -11,7 +11,7 @@ function fetchActivities() {
         .then(aktiviteter => {
             aktiviteter.forEach(function (aktivitet) {
                 console.log(aktivitet["name"])
-                let htmlString = "<li>" + aktivitet["name"] + " - " + aktivitet["pris"] + " - " + aktivitet["description"] + "</li>"
+                let htmlString = "<li><b>" + aktivitet["name"] + "</b> - " + aktivitet["pris"] + "<br><br>" + aktivitet["description"] + "<br><br></li>"
 
                 sweList.innerHTML += htmlString;
 
@@ -24,7 +24,7 @@ function fetchActivities() {
         .then(aktiviteter => {
             aktiviteter.forEach(function (aktivitet) {
                 console.log(aktivitet["name"])
-                let htmlString = "<li>" + aktivitet["name"] + " - " + aktivitet["pris"] + " - " + aktivitet["description"] + "</li>"
+                let htmlString = "<li><b>" + aktivitet["name"] + "</b> - " + aktivitet["pris"] + "<br><br>" + aktivitet["description"] + "<br><br></li>"
 
                 engList.innerHTML += htmlString;
 

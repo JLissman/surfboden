@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Aktiviteter & Priser</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" defer>
     <script type="text/javascript" src="../Script/swapLang.js" defer></script>
     <script type="text/javascript" src="../Script/fetch.js" defer></script>
-
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 </head>
 <nav>
@@ -39,9 +39,19 @@
 <video autoplay muted loop id="myVideo">
     <source src="vid/boden.mp4" type="video/mp4">
 </video>
+
 <body onload="onLoadSetLang();fetchActivities()">
 <div id="sweBody">
-<ul id="sweList">
+<ul id="sweList" style="display:inline;
+    font-size:20px;
+    text-shadow:
+            0.07em 0 black,
+            0 0.07em black,
+            -0.07em 0 black,
+            0 -0.07em black;
+    padding-bottom:20px;
+    color:white;
+    margin-left:auto;">
 
 
 
@@ -51,7 +61,16 @@
     </form>
 </div>
 
-<div id="engBody">
+<div id="engBody" style="display:inline;
+    font-size:20px;
+    text-shadow:
+            0.07em 0 black,
+            0 0.07em black,
+            -0.07em 0 black,
+            0 -0.07em black;
+    padding-bottom:20px;
+    color:white;
+    margin-left:auto">
     <ul id="engList">
 
 
