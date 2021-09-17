@@ -29,9 +29,9 @@ function getFormInfo(event){
             let varType = typeen.value;
             let varDatum = datumen.value;
             let varAntal = antalen.value;
-            document.getElementById("resultName").textContent = "Thank you "+varName+" for you booking request";
+            document.getElementById("resultName").textContent = "Thank you "+varName+" for your booking request";
             document.getElementById("resultTel").textContent = "We will contact you via "+varTel+" to confirm your booking";
-            document.getElementById("resultBokning").textContent = "You have Booked "+varType+" - "+varDatum+" - for "+varAntal+" people(s)"
+            document.getElementById("resultBokning").textContent = "You have Booked "+varType+" on "+varDatum+" - for "+varAntal+" people(s)"
 
 
 
@@ -51,7 +51,7 @@ function getFormInfo(event){
 
             document.getElementById("resultName").textContent = "Tack "+varName+" för din bokning";
             document.getElementById("resultTel").textContent = "Vi kommer kontakta dig på "+varTel+" för att bekräfta din bokning";
-            document.getElementById("resultBokning").textContent = "Du har bokat "+varType+" - "+varDatum+" - för "+varAntal+" Person(er)"
+            document.getElementById("resultBokning").textContent = "Du har bokat "+varType+" på "+varDatum+" - för "+varAntal+" Person(er)"
 
 
 

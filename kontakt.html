@@ -7,7 +7,7 @@
     <script type="text/javascript" src="../Script/form.js" defer></script>
     <script type="text/javascript" src="../Script/validation.js" defer></script>
     <script type="text/javascript" src="../Script/swapLang.js" defer></script>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
 
 </head>
 <nav>
@@ -35,21 +35,22 @@
 </nav>
 
 
-<input type="image" src="img/swefl.png" onclick="changeToSwe()" class="langBtn" id="swelang" />
-<input type="image" src="img/uk.png" onclick="changeToEng()" class="langBtn" id="uklang" />
+<input alt="Svenska" type="image" src="img/swefl.png" onclick="changeToSwe()" class="langBtn" id="swelang" />
+<input alt="English" type="image" src="img/uk.png" onclick="changeToEng()" class="langBtn" id="uklang" />
 <video autoplay muted loop id="myVideo">
     <source src="vid/boden.mp4" type="video/mp4">
 </video>
 <body onload="onLoadSetLang()">
+<div id ="bookingResult">
 <p id="resultName"></p>
 <p id="resultTel"></p><br>
-<p id="resultBokning"></p>
+<p id="resultBokning"></p></div>
 <div id="sweBody">
     <h1 id="titel">Boka ditt äventyr</h1>
     <p>Fyll i och skicka in följande formulär så hör vi av oss så snabbt vi kan!</p>
     <p>Flytvästar finns att låna!</p>
     <form class="kontaktform">
-        <label for="namn">Namn (för- och efternamn):</label><br>
+        <label for="namn">Namn:</label><br>
         <input type="text" id="namn">
         <div class="formvalid" id="namnRT"></div><br><br>
         <label for="nr">Telefonnummer:</label><br>
@@ -68,7 +69,7 @@
         <label for="antal">Antal personer:</label><br>
         <input type="number" id="antal">
         <div class="formvalid" id="antalRT"></div><br><br>
-        <input type="submit" value="Boka nu">
+        <button class="bokanuBtn" type="submit">Boka nu!</button>
     </form>
 </div>
 <div id="engBody">
@@ -76,26 +77,26 @@
     <p>Fill in and send in the following form and we will get back to you as soon as we can! </p>
     <p> Life jackets are available to borrow! </p>
     <form class="kontaktform">
-        <label for="namn">Name (first- and lastname):</label><br>
+        <label for="namnEn">Name:</label><br>
         <input type="text" id="namnEn">
         <div class="formvalid" id="namnEnRT"></div><br><br>
-        <label for="nr">Telephone Number:</label><br>
+        <label for="nrEn">Phone Number:</label><br>
         <input type="tel" id="nrEn">
         <div class="formvalid" id="nrEnRT"></div><br><br>
-        <label for="aktivitet">Activity:</label><br>
+        <label for="aktivitetEn">Activity:</label><br>
         <select id="aktivitetEn" name="aktivitet">
             <option value="Partyraft + pedal boat">Partyraft + pedal boat</option>
             <option value="SUP">SUP (stand up paddle)</option>
             <option value="Pedal boat">Only pedal boat</option>
             <option value="Kayak">Kayak</option>
         </select><br><br>
-        <label for="datum">Date:</label><br>
+        <label for="datumEn">Date:</label><br>
         <input type="date" id="datumEn">
         <div class="formvalid" id="dateEnRT"></div><br><br>
-        <label for="antal">Number of people:</label><br>
+        <label for="antalEn">Number of people:</label><br>
         <input type="number" id="antalEn">
         <div class="formvalid" id="antalEnRT"></div><br><br>
-        <input type="submit" value="Book now!">
+        <button class="bokanuBtn" type="submit">Book now!</button>
     </form>
 </div>
 
@@ -104,15 +105,16 @@
 </body>
 
 <footer>
-    <div id="menu-outerFooter">
+    <div id="footer">
         <div class="table">
             <ul id="horizontal-listFooter">
-                <li><a href="https://www.facebook.com/Surfboden-1126374717500235"><img class="footerImg" src="img/fb.png"></a></li>
-                <li><a href="https://www.instagram.com/surfboden/"><img class="footerImg"  src="img/ig.png"></a></li>
-                <li><a href="tel:+46725343553"><img class="footerImg" src="img/tel.png"></a></li>
-                <li><a href="mailto:surfboden@gmail.com"><img class="footerImg" src="img/mail.png"></a></li>
-            </ul></div>
+                <li><a target="_blank" href="https://www.facebook.com/Surfboden-1126374717500235"><img alt="Facebook" class="footerImg" src="img/fb.png"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/surfboden/"><img alt="Instagram" class="footerImg"  src="img/ig.png"></a></li>
+                <li><a href="tel:+46725343553"><img alt="tel" class="footerImg" src="img/tel.png"></a></li>
+                <li><a href="mailto:surfboden@gmail.com"><img alt="mail" class="footerImg" src="img/mail.png"></a></li>
+            </ul>
         </div>
-    </div>
+        </div>
+
 </footer>
 </html>

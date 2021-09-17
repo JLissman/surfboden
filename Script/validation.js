@@ -36,6 +36,7 @@ function validateTelephoneNumber(num){
 }
 
 function validateEmail(email){
+    //används inte >_>
     let atPosition = email.indexOf("@");
     let dotPosition = email.indexOf(".")
     if(atPosition < 1 || (dotPosition - atPosition < 2)){
@@ -67,6 +68,11 @@ function validate(lang){
     let antal;
 
     let errors=0;
+
+    document.getElementById("namnRT").textContent ="";
+    document.getElementById("nrRT").textContent = "";
+    document.getElementById("dateRT").textContent = "";
+    document.getElementById("antalRT").textContent = "";
     if (lang =="swe"){
         console.log("langsweValidator")
         name = document.querySelector("#namn").value;
